@@ -75,7 +75,7 @@
             if(e.keyCode==13){
                 globalChannel.sendMessage($('#msg').val());
                 $("#outgoing").animate({ scrollTop: 200000000 }, "slow");
-                $('#msg').val('')
+                $('#msg').val('')//asd
             }
         })
 
